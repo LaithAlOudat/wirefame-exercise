@@ -67,17 +67,14 @@ margin: 10px 150px 30px 10px;
 }
 
 #article {
-  display: block;
-  width: 45%;
-  height: 10px;
-  float: right;
-  position: relative;
-  right: 50px;}
+
 
 }
 
-#button {
+button {
   margin: 10px 10px 10px 10px;
+  position:absolute;
+  float: left;
 }
 
 button:hover {
