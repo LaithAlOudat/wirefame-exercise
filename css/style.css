@@ -54,34 +54,42 @@ width: 78%;
 
 h4 { 
   text-align: left;
+  font-size: 1.3rem;
   font-weight: bold;
   
 }
 
 p {
-  overflow: scroll;
+  overflow-y: scroll;
 text-align: right;
 margin: 10px 150px 30px 10px;
 
+}
+
+#article {
+  display: block;
+  width: 45%;
+  height: 10px;
+  float: right;
+  position: relative;
+  right: 50px;}
 
 }
 
 #button {
   margin: 10px 10px 10px 10px;
-  background-color:blue;
-  align-items: left;
-  text-align: left;
 }
 
 button:hover {
   background-color: #333;
   border-color: #333;
   color: #eee;
-  border-radius: 100px;
+  border-radius: 200px;
 }
 
 footer {
     height: 75px;
      width: 100%;
      background-color: gray;
+     margin-top: 50px;
     }
